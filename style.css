@@ -4,6 +4,7 @@
 
 * {
   margin: 0;
+
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -257,4 +258,29 @@ nav a:hover {
   visibility: visible;
   transform: translateY(0);
   transition: 0.5s;
+}
+
+/* ....................FOOTER SECTION ..............................*/
+
+#footer {
+  background-color: black;
+  color: white;
+  margin-top: 3px;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon p {
+  margin: 10px;
+}
+
+.footer-container-div p {
+  font-size: 20px;
 }
