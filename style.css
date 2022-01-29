@@ -145,14 +145,14 @@ nav a:hover {
 }
 
 .intro h1 {
-  font-size: 48px;
+  font-size: 32px;
   text-transform: uppercase;
   color: #2b6777;
   margin: 32px 0 0 0;
 }
 
 .intro h2 {
-  font-size: 25px;
+  font-size: 20px;
   color: #8684a1;
 }
 .intro h3 {

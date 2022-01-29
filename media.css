@@ -39,6 +39,17 @@
 /* ---------------------------------------------------- */
 
 @media only screen and (min-width: 768px) {
+  .intro h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #2b6777;
+    margin: 32px 0 0 0;
+  }
+
+  .intro h2 {
+    font-size: 30px;
+    color: #8684a1;
+  }
 }
 
 /* -------------------------------------------- */
@@ -118,8 +129,8 @@
   .service {
     padding: 9px;
     margin-right: 6px;
-    margin-bottom: 6px;
-    width: 32%;
+    margin-bottom: 16px;
+    width: 30%;
     transition: all 0.3s ease;
   }
 
@@ -129,7 +140,7 @@
   }
 
   .service img {
-    width: 100%;
+    width: 70%;
   }
 }
 
@@ -138,4 +149,15 @@
 /* -------------------------------------------------------------- */
 
 @media only screen and (min-width: 1200px) {
+  .intro h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #2b6777;
+    margin: 32px 0 0 0;
+  }
+
+  .intro h2 {
+    font-size: 36px;
+    color: #8684a1;
+  }
 }
