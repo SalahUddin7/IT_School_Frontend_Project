@@ -31,3 +31,12 @@ function myFunction() {
     moreText.style.display = 'inline';
   }
 }
+
+//Lightbox (Upcoming Project Section)
+
+let imageBox = document.querySelectorAll('.img-box');
+imageBox.forEach((popup) =>
+  popup.addEventListener('click', () => {
+    popup.classList.toggle('active');
+  })
+);
