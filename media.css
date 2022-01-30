@@ -15,7 +15,8 @@
     width: calc(100%-64px);
     transition: all 0.3s ease;
     margin: 9px 14px;
-    width: 100%;
+    /* ?? */
+    width: 84%;
   }
   .intro-image {
     margin-top: 10px;
