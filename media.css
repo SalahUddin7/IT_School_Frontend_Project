@@ -51,6 +51,12 @@
     font-size: 30px;
     color: #8684a1;
   }
+
+  /* Type Section */
+
+  .feature {
+    width: 40%;
+  }
 }
 
 /* -------------------------------------------- */
@@ -160,5 +166,10 @@
   .intro h2 {
     font-size: 36px;
     color: #8684a1;
+  }
+
+  /* Type */
+  .feature {
+    width: 24%;
   }
 }
