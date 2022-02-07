@@ -4,7 +4,6 @@
 
 * {
   margin: 0;
-  /* max-width: 1400px; */
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -176,8 +175,6 @@ nav a:hover {
   margin-left: 15px;
 }
 
-/* ??????????????????????????????????? */
-
 /* Portfolio Section */
 .containerF {
   display: flex;
@@ -335,11 +332,12 @@ nav a:hover {
   background-color: black;
   color: white;
   margin-top: 3px;
-}
-
-.footer-section {
   text-align: center;
 }
+
+/* .footer-section {
+  text-align: center;
+} */
 
 .footer-icon {
   display: flex;
@@ -348,8 +346,11 @@ nav a:hover {
 
 .footer-icon p {
   margin: 10px;
+  color: white;
 }
 
 .footer-container-div p {
   font-size: 20px;
+  font-weight: 400;
+  font-family: Verdana, sans-serif;
 }
