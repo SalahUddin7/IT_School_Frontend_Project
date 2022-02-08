@@ -41,10 +41,35 @@ imageBox.forEach((popup) =>
   })
 );
 
-//Adding image link
+//Portfolio Section adding image link so that The open() method opens a new browser window
 
 document.querySelector('.project1').addEventListener('click', function () {
-  window.location = 'http://www.smkproduction.eu5.org';
-  target = '_blank';
-  done = 1;
+  window.open('https://www.ssamab.se/');
+});
+
+document.querySelector('.project2').addEventListener('click', function () {
+  window.open('https://marmikbistro.se/');
+});
+
+document.querySelector('.project3').addEventListener('click', function () {
+  window.open(
+    'https://codesandbox.io/s/restaurant-meal-project-using-axios-http-method-and-external-api-czt10'
+  );
+});
+
+document.querySelector('.project4').addEventListener('click', function () {
+  window.open(
+    'https://salahuddin7.github.io/responsive-website--ADVENTURE-WITH-SALAH/'
+  );
+});
+
+document.querySelector('.project5').addEventListener('click', function () {
+  window.open(
+    'https://salahuddin7.github.io/Product-Landing-Page--Delicious-Mango/'
+  );
+});
+document.querySelector('.project6').addEventListener('click', function () {
+  window.open(
+    'https://salahuddin7.github.io/responsive-web-design-using-grid-and-flex/'
+  );
 });
