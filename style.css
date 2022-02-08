@@ -186,12 +186,17 @@ nav a:hover {
 }
 
 .feature {
+  cursor: pointer;
   border-radius: 10px;
   box-shadow: 3px 3px 11px rgba(0, 0, 0, 0.3);
   margin: 30px 1.66%;
   padding: 10px;
   width: 84.33%;
   text-align: center;
+}
+
+.feature:hover {
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.8);
 }
 
 .feature h2 {

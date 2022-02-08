@@ -40,3 +40,11 @@ imageBox.forEach((popup) =>
     popup.classList.toggle('active');
   })
 );
+
+//Adding image link
+
+document.querySelector('.project1').addEventListener('click', function () {
+  window.location = 'http://www.smkproduction.eu5.org';
+  target = '_blank';
+  done = 1;
+});
