@@ -9,7 +9,7 @@
   .box {
     margin-bottom: 0;
   }
-
+/* 
   .service {
     text-align: center;
     padding: 25px;
@@ -25,7 +25,7 @@
 
   /* .intro-image {
     margin-top: 10px;
-  } */
+  } */ */
 }
 /* ------------------------------------------------------------- */
 /* B. Small devices (portrait tablets and large phones, 600px and up) */
@@ -80,7 +80,7 @@
   }
 
   .container {
-    /* max-width: 768; */
+
     margin: 0 auto;
   }
 

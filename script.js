@@ -14,25 +14,32 @@ menuButton.addEventListener('click', function () {
   }
 });
 
-//Read More... (inside HOME Section Page)
+// .....................Start of 'Scroll To Top' Button...........................
 
-function myFunction() {
-  var dots = document.getElementById('dots');
-  var moreText = document.getElementById('more');
-  var btnText = document.getElementById('myBtn');
+mybutton = document.getElementById('goTopBtn');
 
-  if (dots.style.display === 'none') {
-    dots.style.display = 'inline';
-    btnText.innerHTML = 'Read more';
-    moreText.style.display = 'none';
+// button will appear if the user scrolls down 30px from the top of the document,
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    mybutton.style.display = 'block';
   } else {
-    dots.style.display = 'none';
-    btnText.innerHTML = 'Read less';
-    moreText.style.display = 'inline';
+    mybutton.style.display = 'none';
   }
 }
 
-//Lightbox (Upcoming Project Section)
+// If  the user clicks on the button, going to scroll to the very top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+// .....................END of Scroll Button............................
+
+//..........Lightbox (used in Upcoming Project Section)
 
 let imageBox = document.querySelectorAll('.img-box');
 imageBox.forEach((popup) =>
