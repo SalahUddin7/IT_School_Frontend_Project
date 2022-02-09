@@ -247,7 +247,7 @@ nav a:hover {
 .containerX {
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   min-height: 35vh;
