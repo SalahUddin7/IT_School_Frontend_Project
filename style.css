@@ -143,6 +143,11 @@ nav a:hover {
   text-align: center;
 }
 
+.intro-image > img {
+  width: 300px;
+  height: auto;
+}
+
 .intro h1 {
   font-size: 32px;
   text-transform: uppercase;

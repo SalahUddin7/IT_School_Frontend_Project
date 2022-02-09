@@ -16,8 +16,9 @@
 /* ------------------------------------------------------------- */
 
 @media only screen and (min-width: 600px) {
-  .intro-image {
-    width: 400px;
+  .intro-image > img {
+    width: 320px;
+    height: auto;
   }
   .service-sec-img {
     width: 100px;
@@ -35,6 +36,10 @@
 
   .intro h2 {
     font-size: 30px;
+  }
+  .intro-image > img {
+    width: 420px;
+    height: auto;
   }
 
   /* Portfolio Section */
@@ -55,8 +60,9 @@
 /* -------------------------------------------- */
 
 @media only screen and (min-width: 992px) {
-  .intro-image {
-    width: 500px;
+  .intro-image > img {
+    width: 450px;
+    height: auto;
   }
 
   .container {
