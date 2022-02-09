@@ -1,4 +1,4 @@
-//Humburger Menu Button
+//1.................Humburger Menu Button..............
 
 const menuButton = document.querySelector('#menu');
 
@@ -14,7 +14,7 @@ menuButton.addEventListener('click', function () {
   }
 });
 
-// .....................Start of 'Scroll To Top' Button...........................
+// 2......................Start of 'Scroll To Top' Button...........................
 
 mybutton = document.getElementById('goTopBtn');
 
@@ -36,10 +36,11 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
+//.....................................................................
 // .....................END of Scroll Button............................
+//......................................................................
 
-//..........Lightbox (used in Upcoming Project Section)
+//3................Lightbox (used in Upcoming Project Section).........
 
 let imageBox = document.querySelectorAll('.img-box');
 imageBox.forEach((popup) =>
@@ -48,7 +49,7 @@ imageBox.forEach((popup) =>
   })
 );
 
-//Portfolio Section adding image link so that The open() method opens a new browser window
+//4..............Portfolio Section adding image link so that The open() method opens a new browser window
 
 document.querySelector('.project1').addEventListener('click', function () {
   window.open('https://www.ssamab.se/');

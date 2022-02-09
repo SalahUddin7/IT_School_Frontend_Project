@@ -1,4 +1,4 @@
-/* Note: I am doing this website MOBILE first as par rekomendation of w3 School */
+/* Note: I am doing this website MOBILE first as par recomendation of w3 School */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 
@@ -125,10 +125,6 @@ nav a:hover {
   color: white;
 }
 
-#more {
-  display: none;
-}
-
 .intro-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -191,7 +187,7 @@ nav a:hover {
 }
 
 #goTopBtn:hover {
-  background-color: #2b6777; /* Add a dark-grey background on hover */
+  background-color: #2b6777;
 }
 
 /* Portfolio Section */
@@ -352,7 +348,7 @@ nav a:hover {
   transition: 0.5s;
 }
 
-/* ................FOOTER SECTION.*/
+/* ................FOOTER SECTION.......................*/
 
 #footer {
   background-color: black;

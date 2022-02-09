@@ -9,24 +9,8 @@
   .box {
     margin-bottom: 0;
   }
-/* 
-  .service {
-    text-align: center;
-    padding: 25px;
-    background-color: #f2f2f2;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    width: calc(100%-64px);
-    transition: all 0.3s ease;
-    margin: 9px 14px;
-    /* ?? */
-    /* width: 84%; */
-  }
-
-  /* .intro-image {
-    margin-top: 10px;
-  } */ */
 }
+
 /* ------------------------------------------------------------- */
 /* B. Small devices (portrait tablets and large phones, 600px and up) */
 /* ------------------------------------------------------------- */
@@ -47,14 +31,10 @@
 @media only screen and (min-width: 768px) {
   .intro h1 {
     font-size: 40px;
-    /* text-transform: uppercase; */
-    /* color: #2b6777; */
-    /* margin: 32px 0 0 0; */
   }
 
   .intro h2 {
     font-size: 30px;
-    /* color: #8684a1; */
   }
 
   /* Portfolio Section */
@@ -80,11 +60,10 @@
   }
 
   .container {
-
     margin: 0 auto;
   }
 
-  /* Home Page Starts Here */
+  /* Home Page  */
 
   .header > div {
     flex-direction: row;
@@ -138,7 +117,7 @@
     margin-top: 60px;
   }
 
-  /* SERVICES Section Starts Here */
+  /* SERVICES Section Here */
 
   .services-container {
     display: flex;
