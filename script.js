@@ -33,12 +33,11 @@ function scrollFunction() {
 
 // If  the user clicks on the button, going to scroll to the very top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 //.....................................................................
 // .....................END of Scroll Button............................
-//......................................................................
 
 //3................Lightbox (used in Upcoming Project Section).........
 
@@ -49,7 +48,7 @@ imageBox.forEach((popup) =>
   })
 );
 
-//4..............Portfolio Section adding image link so that The open() method opens a new browser window
+//4..............PORTFOLIO Section adding image link so that The open() method opens a new browser window
 
 document.querySelector('.project1').addEventListener('click', function () {
   window.open('https://www.ssamab.se/');
