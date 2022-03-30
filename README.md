@@ -1,4 +1,4 @@
-# IT_School_Frontend_Project (Please visit: http://www.salah-uddin.se/)
+# IT_School_Frontend_Project (Please visit: https://salahuddin-portfolio-changemaker-educations-final-project.netlify.app/)
 
 This is a Frontend Assignment project for my Course in Frontend Development at THE CHANGE MAKER EDUCATIONS (SWEDEN). 
 I have built my PORTFOLIO using HTML, CSS and Javascript.
